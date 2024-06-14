@@ -3,11 +3,10 @@ import streamlit as st
 st.set_page_config(page_title="Things to come", page_icon="Images/coke_icon.png", layout="wide")
 
 st.image("Images/coke_logo.png")
-
-
 st.write("# Let's explore what's coming in SSDP")
-
 st.write("## Release 2.1.6")
+
+st.divider()
 
 cols = st.columns(2)
 

@@ -1,15 +1,10 @@
 import streamlit as st
-import pandas as pd
-import numpy as np
 
 st.set_page_config(page_title="SSDP Newsletter", page_icon="Images/coke_icon.png", layout="wide")
-
-
 
 date_col = st.columns(3)
 with date_col[0]:
     st.image("Images/coke_logo.png")
-
 with date_col[1]:
     st.write("# SSDP Newsletter")
 with date_col[2]:
@@ -18,6 +13,8 @@ with date_col[2]:
 st.write("Hello! Welcome to the SSDP newsletter. Join us to discover what's new at SSDP and upcoming features! We are "
          "happy to share with you all our progress, please if you have any questions do not hesitate to contact us, "
          "we will be more than happy to answer your questions, we hope you enjoy this space!")
+
+st.divider()
 
 cols = st.columns(2)
 with cols[0]:
@@ -72,3 +69,6 @@ with cols[1]:
              "SSIS, and event-driven architectures using Azure Event Hubs or Azure Stream Analytics is important for "
              "enabling real-time data processing and insights.")
 
+st.divider()
+
+st.write("Please if you have any concern, please write a message to josgomez@coca-cola.com, and he will answer as soon as possible")
