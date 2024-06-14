@@ -9,6 +9,7 @@ st.set_page_config(page_title="SSDP Newsletter", page_icon="Images/coke_icon.png
 date_col = st.columns(3)
 with date_col[0]:
     st.image("Images/coke_logo.png")
+
 with date_col[1]:
     st.write("# SSDP Newsletter")
 with date_col[2]:

@@ -6,6 +6,7 @@ st.image("Images/coke_logo.png")
 
 
 st.write("# Let's explore what's coming in SSDP")
+
 st.write("## Release 2.1.6")
 
 cols = st.columns(2)
