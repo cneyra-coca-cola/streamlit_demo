@@ -43,3 +43,7 @@ with cols[1]:
     st.write("##### Get Trigger Run")
     st.write("- **Impact and severity:** This feature has no impact in the business operation, no actions needed from the consumers perspective.")
     st.write("- **Description:** The users of the API are now allowed to obtain the trigger details using the trigger name of their list of triggers.")
+
+
+st.divider()
+st.write("Please if you have any concern, please write a message to josgomez@coca-cola.com, and he will answer as soon as possible")

@@ -28,3 +28,5 @@ with cols[1]:
     st.write("## API Features")
     st.write("For this release we don't have any planned release from the API perspective.")
 
+st.divider()
+st.write("Please if you have any concern, please write a message to josgomez@coca-cola.com, and he will answer as soon as possible")
